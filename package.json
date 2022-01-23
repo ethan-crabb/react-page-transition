@@ -1,0 +1,54 @@
+{
+  "name": "react-router-v6-page-transition",
+  "version": "1.0.0",
+  "description": "Page transition animation for react-router v6 and up!",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "rollup": "rollup -c",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ethan-crabb/react-page-transition.git"
+  },
+  "keywords": [
+    "react",
+    "animation",
+    "react-router",
+    "react-page-transition"
+  ],
+  "author": "Ethan Crabb",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ethan-crabb/react-page-transition/issues"
+  },
+  "homepage": "https://github.com/ethan-crabb/react-page-transition#readme",
+  "devDependencies": {
+    "@babel/core": "^7.16.12",
+    "@rollup/plugin-commonjs": "^21.0.1",
+    "@rollup/plugin-node-resolve": "^13.1.3",
+    "@rollup/plugin-typescript": "^8.3.0",
+    "@storybook/addon-actions": "^6.4.14",
+    "@storybook/addon-essentials": "^6.4.14",
+    "@storybook/addon-links": "^6.4.14",
+    "@storybook/builder-webpack5": "^6.4.14",
+    "@storybook/manager-webpack5": "^6.4.14",
+    "@storybook/react": "^6.4.14",
+    "@types/react": "^17.0.38",
+    "babel-loader": "^8.2.3",
+    "react": "^17.0.2",
+    "rollup": "^2.66.0",
+    "rollup-plugin-dts": "^4.1.0",
+    "rollup-plugin-postcss": "^4.0.2",
+    "typescript": "^4.5.5"
+  },
+  "dependencies": {
+    "react-dom": "^17.0.2"
+  }
+}

@@ -1,0 +1,42 @@
+.Transition {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    margin-left: 100vw;
+    margin-right: 0;
+    transition: all;
+    display: flex;
+}
+@keyframes pageTrans {
+    0% {
+        margin-left: 100vw;
+    }
+    40% {
+        margin-left: 0vw;
+    }
+    50% {
+        margin-left: 0vw;
+    }
+    60% {
+        margin-left: 0vw;
+    }
+    100% {
+        margin-left: -220vw;
+    }
+}
+.TransitionTransition {
+    animation-name: pageTrans;
+    animation-duration: 2s;
+}
+.TransitionTransitionOut {
+    margin-left: 0 !important;
+    margin-right: 200vw !important;
+}
+.primaryTransBox {
+    width: 80%;
+    height: 100%;
+}
+.secondaryTransBox {
+    width: 20%;
+    height: 100%;
+}
